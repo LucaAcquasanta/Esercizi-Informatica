@@ -3,49 +3,52 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-.dropbtn {
-  background-color: #292421;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
+#mySidenav a {
   position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
   text-decoration: none;
-  display: block;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+#mySidenav a:hover {
+  left: 0;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+#dislivello {
+  top: 20px;
+  background-color: #04AA6D;
+}
 
-.dropdown:hover .dropbtn {background-color: #292421;}
+#form {
+  top: 80px;
+  background-color: #2196F3;
+}
+
+#es3 {
+  top: 140px;
+  background-color: #f44336;
+}
+
+#es4 {
+  top: 200px;
+  background-color: #555
+}
 </style>
 </head>
 <body>
 
-<div class="dropdown">
-  <button class="dropbtn">Informatica 2021/2022</button>
-  <div class="dropdown-content">
-    <a href="PrimoQuadrimestre">1° Quadrimestre</a>
-    <a href="SecondoQuadrimestre">2° Quadrimestre</a>
-  </div>
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="dislivello">Dislivello</a>
+  <a href="#" id="form">Form Responsive</a>
+  <a href="" id="es3">Esercizio 3</a>
+  <a href="" id="es4">Esercizio 4</a>
+</div>
+
 </body>
 </html>
