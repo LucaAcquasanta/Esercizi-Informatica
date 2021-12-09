@@ -3,20 +3,21 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-.dropbtn {
-  background-color: #04AA6D;
+
+  .btn {
+  background-color: black;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
 }
-
-.dropdown {
+  
+.novembre {
   position: relative;
   display: inline-block;
 }
 
-.dropdown-content {
+.novembre-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -25,34 +26,31 @@
   z-index: 1;
 }
 
-.dropdown-content a {
+.novembre-content a {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.novembre-content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropdown-content {display: block;}
+.novembre:hover .novembre-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.novembre:hover .btn {background-color: #3e8e41;}
 </style>
 </head>
 <body>
 
-<h2>Hoverable Dropdown</h2>
-<p>Move the mouse over the button to open the dropdown menu.</p>
-
-<div class="dropdown">
-  <button class="dropbtn">Novembre</button>
-  <div class="dropdown-content">
+<div class="novembre">
+  <button class="btn">Novembre</button>
+  <div class="novembre-content">
     <a href="Dislivello">Dislivello responsive</a>
   </div>
 
-    <div class="dropdown">
-  <button class="dropbtn">Dicembre</button>
-  <div class="dropdown-content">
+    <div class="dicembre">
+  <button class="btn">Dicembre</button>
+  <div class="novembre-content">
     <a href="Esercizio1">Esercizio 1</a>
     </div>
 
