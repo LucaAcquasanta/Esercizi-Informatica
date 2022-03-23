@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 Bottoni</title>
+    <style>
+        div{
+            width: 130px;
+            height: 130px;
+            border: outset black 1px;
+            float: left;
+        }
+        button{
+            width: 100px;
+            height: 100px;
+        }
+        p{
+           text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div><p><button onclick="myFunction2()" style="background-color:red">2</button></p></div>
+    <div><p><button onclick="myFunction3()" style="background-color:green">3</button></p></div>
+    <div><p><button onclick="myFunction4()" style="background-color:blue">4</button></p></div>
+    <div><p><button onclick="myFunction5()" style="background-color:yellow">5</button></p></div>
+    <div><p><button onclick="myFunction6()" style="background-color:orange">6</button></p></div>
+
+    <script>
+        function myFunction2(){
+            alert("2,4,6,8,10,12,14,16,18,20");
+        }
+        function myFunction3(){
+            alert("3,6,9,12,15,18,21,24,27,30");
+        }
+        function myFunction4(){
+            alert("4,8,12,16,20,24,28,32,36,40");
+        }
+        function myFunction5(){
+            alert("5,10,15,20,25,30,35,40,45,50");
+        }
+        function myFunction6(){
+            alert("6,12,18,24,30,36,42,48,54,60");
+        }
+    </script>
+</body>
+</html>
