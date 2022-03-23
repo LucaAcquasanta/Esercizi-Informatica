@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>10Box+1</title>
+    <style>
+        div{
+            width: 44px;
+            height: 44px;
+            margin: 2px;
+            border: outset black 1px;
+            float: left;
+            text-align: center;
+        }
+        #box1{
+            background-color: red;
+        }
+        #box2{
+            background-color: orangered;
+        }
+        #box3{
+            background-color: yellow;
+        }
+        #box4{
+            background-color: green;
+        }
+        #box5{
+            background-color: lightblue;
+        }
+        #box6{
+            background-color: blue;
+        }
+        #box7{
+            background-color: pink;
+        }
+        #box8{
+            background-color: purple;
+        }
+        #box9{
+            background-color: brown;
+        }
+        #box10{
+            background-color: darkred;
+        }
+        #box11{
+            width: 500px;
+            height: 150px;
+            background-color: gray;
+            clear: both;
+        }
+        #box12{
+            width: 500px;
+            height: 150px;
+            background-color: gray;
+            text-align: center;
+            clear: both;
+        }
+        button{
+            border: outset black 1px;
+        }
+    </style>
+</head>
+<body>
+<div id="box1">9</div>
+<div id="box2">18</div>
+<div id="box3">27</div>
+<div id="box4">36</div>
+<div id="box5">45</div>
+<div id="box6">54</div>
+<div id="box7">63</div>
+<div id="box8">72</div>
+<div id="box9">81</div>
+<div id="box10">90</div>
+<div id="box11"><ul>
+    <li><a href="http://www.marcopalladino.it/it/cosa-puo-fare-lintelligenza-artificiale-quali-lavori-sono-realmente-a-rischio/">Intelligenza Artificiale</a></li>
+    <li><a href="http://www.marcopalladino.it/it/game-design-or-lesson-design-the-flow/">Game Design</a></li>
+    <li><a href="http://www.marcopalladino.it/it/giochi-con-la-fisica/">Giochi con la Fisica</a></li>
+    <li><a href="http://www.marcopalladino.it/it/artificial-intelligences-examples/"
+          >Intelligenza Artificiale 2</a></li>
+    <li><a href="http://www.marcopalladino.it/it/numeri-primi-da-1-a-100-in-scratch/">Numeri primi da 1 a 100</a></li>
+</ul></div>
+</br>
+<div id="box12">
+    <a href="https://www.juventus.com/it"><button>Juventus</button></a>
+    <a href="https://www.youtube.com/"><button>Youtube</button></a>
+    <a href="https://www.twitch.tv/"><button>Twitch</button></a>
+    <a href="https://www.instagram.com/"><button>Instagram</button></a>
+    <a href="https://www.amazon.it/"><button>Amazon</button></a>
+</div>
+</body>
+</html>
