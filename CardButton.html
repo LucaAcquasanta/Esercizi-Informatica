@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+#button1 {
+  background-color: #FF0000;
+  border:none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+  position: absolute;
+  top: 435px;
+  left: 0;
+}
+
+#button2 {
+  background-color: #00FF00;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+  position:absolute;
+  top: 490px;
+  left: 0;
+}
+
+#button3 {
+  background-color: #0000FF;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+  position:absolute;
+  top: 545px;
+  left: 0;
+}
+
+#button4 {
+  background-color: #9400D3;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 15px;
+  position:absolute;
+  top: 600px;
+  left: 0;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.1s;
+  width:200px;
+  height:40%;
+}
+
+.card:hover {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+img{
+  width:200px;
+  height:250px;
+}
+
+
+</style>
+</head>
+<body>
+
+<h1>Card</h1>
+
+<div class="card">
+  <img src="LucaAcquasanta.jpg" alt="Luca Acquasanta">
+  <div class="container">
+    <h4><b>Luca Acquasanta</b></h4> 
+    <p>Studente</p> 
+  </div>
+</div>
+
+<button id="button1" onclick="presentazione()">MI PRESENTO</button>
+
+<a href="https://www.juventus.com/it"><button id="button2">SITO PREFERITO</button></a>
+
+<a href="https://www.w3schools.com/"><button id="button3">W3SCHOOL</button></a>
+
+<a href="http://www.marcopalladino.it/it/"><button id="button4">MARCO PALLADINO</button></a>
+
+<script>
+function presentazione() {
+  alert("Mi chiamo Luca e studio telecomunicazioni presso la scuola superiore J.C. Maxwell");
+}
+</script>
+
+</body>
+</html>
