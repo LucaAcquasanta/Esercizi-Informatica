@@ -32,7 +32,7 @@ let minimo = 1001;
                 indice = i;
             }
         }
-        document.getElementById("outMinimo").innerHTML += minimo +  "Indice: " + indice;
+        document.getElementById("outMinimo").innerHTML += minimo +" " + "Indice: " + indice;
     }
 
          function media() {
@@ -43,23 +43,33 @@ let media,somma=0;
            media=somma/arrayBello.length;
 document.getElementById("outMedia").innerHTML += media + " ";
     }
+
+    function somma() {
+          let somma=0;
+          for (let i = 0; i < arrayBello.length; i++) {
+          somma=somma+arrayBello[i];
+          }
+     document.getElementById("outSomma").innerHTML += somma + " ";
+  }
     </script>
 </head>
 <body>
     <button onclick="riempiArray()">
-        Carica array
+        Carica Array
     </button>
     <button onclick="max()">
-        massimo
+        Massimo
     </button>
     <button onclick="min()">
-        minimo
+        Minimo
     </button>
  <button onclick="media()">
-        media
+        Media
     </button>
+  <button onclick="somma()">Somma</button>
     <p id="out">Array: </p>
     <p id="outMassimo">Valore Massimo: </p>
     <p id="outMinimo">Valore Minimo: </p>
       <p id="outMedia"> Media: </p>
+  <p id="outSomma">Somma: </p>
 </body>
