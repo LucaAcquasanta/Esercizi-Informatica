@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numeri Primi</title>
+</head>
+<body>
+</body>
+<script>
+        let contatoreprimi=0;
+        let startrange=1;
+        let endrange=100;
+        let numerocicli=0
+
+        while(numerocicli<10){
+            for (let i=startrange; i<=endrange;i++){
+        if (ControlloPrimo(i)){
+            document.write("<span>*" + i + "*</span><br>");
+            contatoreprimi++;
+        }
+        else{
+            document.write("<span>" + i + "</span><br>");
+        }    
+    }
+document.write("<p> I numeri primi tra " + startrange + " e " + endrange + " sono: " + contatoreprimi + "</p>");
+contatoreprimi=0;
+startrange=endrange;
+endrange=endrange+100;
+numerocicli++;
+
+}
+
+
+
+    function ControlloPrimo(n){
+              let bOut=true;
+                  for(fattore=2; (fattore <= n/2); fattore++)
+                        {
+                           if (n%fattore==0)
+                                {bOut=false;}
+    }
+        return bOut;
+}
+</script>
+</html>
