@@ -18,10 +18,10 @@
     <label for="r2">R2</label><br>
     <input type="text" id="r2"><br>
     <label for="r3">R3</label><br>
-    <input type="text" id="r3"><br>
-    <button onclick="calcoloReqSerie()">Calcolo Req Serie</button><br>
-    <button onclick="calcoloV()">Calcolo V1,V2,V3</button><br>
-    <button onclick="calcoloReqParallelo()">Calcolo Req Parallelo</button><br>
+    <input type="text" id="r3"><br><br>
+    <button onclick="calcoloReqSerie()">Calcolo Req Serie</button><br><br>
+    <button onclick="calcoloV()">Calcolo V1,V2,V3</button><br><br>
+    <button onclick="calcoloReqParallelo()">Calcolo Req Parallelo</button><br><br>
     <button onclick="calcoloI()">Calcolo I1,I2,I3</button>
     <p id="out"></p>
 
@@ -51,7 +51,7 @@
         V3=calcoliParziali(R3, I)
         document.getElementById("out").innerHTML+= "V1 = " + V1 + "<br>"
         document.getElementById("out").innerHTML+= "V2 = " + V2 + "<br>"
-        document.getElementById("out").innerHTML+= "V3 = " + V3 + "<br>"
+        document.getElementById("out").innerHTML+= "V3 = " + V3 + "<br><br>"
         }
 
     function calcoliParziali(A, B){
